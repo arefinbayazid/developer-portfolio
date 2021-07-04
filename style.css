@@ -4,16 +4,20 @@ body{
     padding: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 span{
     color: orange;
+}
+p{
+    font-size: 19px;
+    color: dimgrey;
 }
 a{
     text-decoration: none;
     background-image:linear-gradient(orange,tomato) ;
     color:white;
-    padding: 5px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     font-weight: 400;
 }
@@ -21,7 +25,7 @@ a{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 40%;
@@ -33,6 +37,43 @@ a{
     margin-top: 80px;
 }
 .second-container{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-container{
+    display: block;
+    margin-bottom: 200px;
+}
+.third-container-baby{
+    display: flex;
+}
+.third-container-h1{
+    margin-left: 5px;
+}
+.txt1{
+    color: dimgrey;
+    font-size: 14px;
+}
+.half-width-fullstrack{
+    box-shadow: 2px 2px 50px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    border-left: 7px solid tomato;
+}
+.half-width-babydeveloper{
+    box-shadow: 2px 2px 50px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#ab{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 1 / 1 / 0 stretch;
+}
+.footer{
+    text-align: center;
 }
