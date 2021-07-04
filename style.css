@@ -21,6 +21,7 @@ a{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 40%;
@@ -30,4 +31,8 @@ a{
 .half-width img{
     width: 80%;
     margin-top: 80px;
+}
+.second-container{
+    margin-bottom: 100px;
+    display: flex;
 }
